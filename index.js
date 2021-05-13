@@ -40,6 +40,9 @@ app.get('/products',(req,res)=>{
     res.send(documents)
   })
 })
+app.get('/sowhat',(req,res)=>{
+  res.send('hello')
+})
 
 // Load a single Product 
 
